@@ -4,7 +4,7 @@ Dự án môn học Deep Learning: Xây dựng hệ thống phát hiện, phân 
 
 ---
 
-## 🌟 Tính Năng Nổi Bật
+##Tính Năng Nổi Bật
 - **Học chuyển tiếp (Transfer Learning):** Tinh chỉnh mô hình YOLOv8-Nano trên tập dữ liệu đặc thù giao thông Việt Nam.
 - **Tối ưu hóa đa thực nghiệm:** So sánh hiệu năng giữa các bộ tối ưu (`SGD`, `Adam`) và cơ chế suy giảm tốc độ học (`Cosine Learning Rate Decay`).
 - **Theo dõi đối tượng thời gian thực:** Tích hợp thuật toán **ByteTrack** gán ID duy nhất cho từng phương tiện.
@@ -14,7 +14,7 @@ Dự án môn học Deep Learning: Xây dựng hệ thống phát hiện, phân 
 
 ---
 
-## 📂 Cấu Trúc Thư Mục Dự Án
+##Cấu Trúc Thư Mục Dự Án
 ```text
 ├── configs/
 │   └── traffic.yaml             # Cấu hình dataset (4 lớp: car, motor, truck, bus)
@@ -72,7 +72,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🚀 Hướng Dẫn Chạy Dự Án
+##Hướng dẫn chạy dự án
 
 ### Bước 1: Chạy thử nghiệm mô hình Baseline (COCO)
 Chạy thử nghiệm phát hiện phương tiện gốc (chỉ lọc 3 nhãn xe từ COCO):
@@ -116,7 +116,7 @@ python src/tracker.py --video data/input/tphcm_traffic.mp4 --output data/output/
 
 ---
 
-## 📈 Tóm Tắt Kết Quả Thực Nghiệm
+##Tóm Tắt Kết Quả Thực Nghiệm
 
 Dưới đây là bảng so sánh chỉ số đánh giá tổng thể thu được trên tập Validation (156 ảnh):
 
