@@ -1,0 +1,15 @@
+# YOLOv8 Dataset Configuration for Traffic Vehicle Detection (4 Classes)
+# Paths are defined relative to the workspace directory or as absolute paths
+
+path: d:/HK8/DL/data/dataset # Dataset root folder
+train: train/images          # Train images (relative to path)
+val: valid/images            # Validation images (relative to path)
+test: test/images            # Test images (relative to path)
+
+# Classes mapped using AI bounding box IoU alignment
+nc: 4
+names:
+  0: car
+  1: motor
+  2: truck
+  3: bus
